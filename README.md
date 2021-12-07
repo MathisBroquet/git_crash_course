@@ -1,11 +1,10 @@
 # GitHub à l'ETML.
->Voici le document crée à l'ETML. Ce document vous expliquera les thermes liés à Git et GitHub.  
-Il vous servira de tutoriel et de document théorique sur les différents thermes et commandes Git.
+><div align="justify">Voici le document crée à l'ETML. Ce document vous expliquera les thermes liés à Git et GitHub. <br> Il vous servira de tutoriel et de document théorique sur les différents thermes et commandes Git.</div>
 
 # Pull Request | Fork
 
 ## 1. Pull Request
-***Les pull requests sont la façon dont on vérifie les modifications du code source dans une branche. Quand on ouvre une pull request, on peut visualiser et collaborer sur les modifications de code avant le merge.***
+***<div align="justify">Les pull requests sont la façon dont on vérifie les modifications du code source dans une branche. Quand on ouvre une pull request, on peut visualiser et collaborer sur les modifications de code avant le merge.</div>***
 
 ### 1.1 Git bash
 > Commande sur git bash :
@@ -13,7 +12,7 @@ Il vous servira de tutoriel et de document théorique sur les différents therme
 git request-pull [-p] <start> <url> [<end>]
 ```
 ### 1.2 GitKraken
-<img src="https://user-images.githubusercontent.com/74264318/145035421-fa99b2f0-1825-466f-8dd2-52c98cb9aebd.PNG" style="border:1px solid white">
+![Capture3](https://user-images.githubusercontent.com/74264318/145035421-fa99b2f0-1825-466f-8dd2-52c98cb9aebd.PNG)
 
 ![Capture4](https://user-images.githubusercontent.com/74264318/145035557-dcdcf66a-e61c-4364-9cf3-a56ae9ea006d.PNG)
 
@@ -30,7 +29,7 @@ git request-pull [-p] <start> <url> [<end>]
 
 
 ## 2. Fork
-***Un fork est une copie d'un dépôt. Cela permet de faire des modifications sur un dépôt sans que le dépôt principal soit affecté.***
+***<div align="justify">Un fork est une copie d'un dépôt. Cela permet de faire des modifications sur un dépôt sans que le dépôt principal soit affecté.</div***
 
 ### 2.1 GitKraken
 - Cloner le dépôt initial.
@@ -47,7 +46,7 @@ https://support.gitkraken.com/working-with-repositories/fork/
 # Therme Git
 
 ## 1. Branch
-Une branch est essentiellement un ensemble unique de modification de code avec un nom unique. Chaque repo peut avoir une ou plusieurs branch. La branch principale qui s’appelle master, dans laquelle toutes les modifications sont finalement fusionnées. Il s’agit de la version officielle du projet et celle qu’on voit quand on visite le repo du projet.
+***<div align="justify">Une branch est essentiellement un ensemble unique de modification de code avec un nom unique. Chaque repo peut avoir une ou plusieurs branch. La branch principale qui s’appelle master, dans laquelle toutes les modifications sont finalement fusionnées. Il s’agit de la version officielle du projet et celle qu’on voit quand on visite le repo du projet.</div>***
 > Lien de référence :  
 https://www.atlassian.com/fr/git/tutorials/using-branches
 
@@ -62,9 +61,7 @@ git push -u <remote> <branch-name>
 ```
 
 ## 2. Commit 
-À un niveau général, Git peut être considéré comme un utilitaire de gestion de la chronologie. Les commits constituent les piliers d'une chronologie de projet Git.
-Cela interagit dans le dépôt local, ce qui ne nécessite aucune interaction avec d'autres dépôts Git.
-On peut y ajouter une description de l'ajout effectué en local, afin de l'envoyer dans le dépôt distant.
+***<div align="justify">À un niveau général, Git peut être considéré comme un utilitaire de gestion de la chronologie. Les commits constituent les piliers d'une chronologie de projet Git. Cela interagit dans le dépôt local, ce qui ne nécessite aucune interaction avec d'autres dépôts Git. On peut y ajouter une description de l'ajout effectué en local, afin de l'envoyer dans le dépôt distant.<div>***
 > Lien de référence :  
 https://www.atlassian.com/fr/git/tutorials/saving-changes/git-commit
 
@@ -75,7 +72,7 @@ git commit -m "commit message"
 ```
 
 ## 3. Pull
-Les pull requests sont une fonctionnalité facilitant la collaboration des développeurs avec Git Kraken. Elles fournissent une interface conviviale pour discuter des changements proposés avant de l’intégrer au projet officiel. 
+***<div align="justify">Les pull requests sont une fonctionnalité facilitant la collaboration des développeurs avec Git Kraken. Elles fournissent une interface conviviale pour discuter des changements proposés avant de l’intégrer au projet officiel.</div>***
 > Lien de référence :  
 https://www.atlassian.com/fr/git/tutorials/syncing/git-pull
 
@@ -86,7 +83,7 @@ git pull
 ```
 
 ## 4. Push
-Le push est la commande la plus couramment utilisée pour publier des changements locaux et les charger vers un dépôt centralisé. Après qu’un dépôt local a été modifié, un push est exécuté pour partager les changements avec les membres de l’équipe distants.
+***<div align="justify">Le push est la commande la plus couramment utilisée pour publier des changements locaux et les charger vers un dépôt centralisé. Après qu’un dépôt local a été modifié, un push est exécuté pour partager les changements avec les membres de l’équipe distants.</div>***
 > Lien de référence :  
 https://www.atlassian.com/fr/git/tutorials/syncing/git-push
 
@@ -98,7 +95,7 @@ https://www.atlassian.com/fr/git/tutorials/syncing/git-push
 ```
 
 ## 5. Fetch
-Le fetch permet, tout comme le pull, de télécharger le dépôt distant dans une copie locale. La seule difference est que fetch ne télécharge pas les métadonnées associées à un projet. C'est à dire qu'il ne met pas à jour les fichiers déjà présents dans le dépôt local.
+***<div align="justify">Le fetch permet, tout comme le pull, de télécharger le dépôt distant dans une copie locale. La seule difference est que fetch ne télécharge pas les métadonnées associées à un projet. C'est à dire qu'il ne met pas à jour les fichiers déjà présents dans le dépôt local.</div>***
 > Lien de référence :  
 https://www.atlassian.com/fr/git/tutorials/syncing/git-fetch
 
@@ -110,9 +107,40 @@ https://www.atlassian.com/fr/git/tutorials/syncing/git-fetch
 ```
 
 ## 6. Origin
-C'est l'origine du dépôt et non pas le nom d'une branche. 
-Comme dans une arborescence de fichier :  
--Origin/NomDeLaBranche
+***<div align="justify">C'est l'origine du dépôt et non pas le nom d'une branche. Comme dans une arborescence de fichier : <br> - Origin/NomDeLaBranche</div>***
+
+## 7. Upstream
+***<div align="justify">Upstream définit l'emplacement que le dépôt local contient. Imaginons que j'ai un dépot avec 2 branches : <br> - Origin/master <br> - Origin/Dev <br> Depuis le dépôt local, si je clone le dépôt distant, le upstream, donc le "lien" du dépôt distant (Dépôt + branche) sera déjà défini.</div>***
+> Lien de référence :  
+https://www.atlassian.com/git/tutorials/git-forks-and-upstreams
+
+### 7.1 Git bash
+> Faire un upstream avec git bash :
+```git
+git push --set-upstream origin master 
+```
+
+## 8. Stage
+***<div align="justify">Le stage est une zone tampon, autrement dit il stock temporerement les fichiers modifiés dans une liste d'attente afin d'être ajouté par le prochain commit.</div>***
+> Lien de référence :  
+https://www.atlassian.com/fr/git/tutorials/saving-changes
+
+### 8.1 Git bash
+> Faire un stage avec git bash :
+```git
+git add .
+```
+
+## 9. Tag
+***<div align="justify">Le tag est un balisage pour marquer des points soécifiques de l'historique Git.Les tags sont généralement utilisés pour capturer un point de l'historique .utilisé pour une version marquée (c.-à-d., v1.0.1).</div>***
+> Lien de référence :  
+https://www.atlassian.com/fr/git/tutorials/inspecting-a-repository/git-tag
+
+### 9.1 Git bash
+> Faire un tag avec git bash :
+```git
+git tag <tagname>
+```
 
 # Créateurs
 - [David Dieperink](https://github.com/dieperid)  
