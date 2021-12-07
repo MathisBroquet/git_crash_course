@@ -23,12 +23,14 @@ git request-pull [-p] <start> <url> [<end>]
 - Sélectionnez les branches à comparés
 
 ![Capture](https://user-images.githubusercontent.com/74264318/145034157-b0448636-7dcf-4445-b855-a5e4137d3545.PNG)
+
 - Après cela, mettez votre commentaire et créer la pull request.
 
 ![Capture2](https://user-images.githubusercontent.com/74264318/145034626-e2b34065-0f47-4225-bdcd-0c586898e977.PNG)
 
+
 ## 2. Fork
-***Un fork est une copie d'un dépôt. Cela permet de faire des modifications sur un dépôt sans que le dépôt principal soit affecté.***
+***<span style="color:red">Un fork est une copie d'un dépôt. Cela permet de faire des modifications sur un dépôt sans que le dépôt principal soit affecté.</span>***
 
 ### 2.1 GitKraken
 - Cloner le dépôt initial.
@@ -109,3 +111,6 @@ https://www.atlassian.com/fr/git/tutorials/syncing/git-fetch
 C'est l'origine du dépôt et non pas le nom d'une branche. 
 Comme dans une arborescence de fichier :  
 -Origin/NomDeLaBranche
+
+# Créateurs
+[![dieperid](https://github.com/dieperid)]()
