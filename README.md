@@ -1,7 +1,13 @@
 # GitHub à l'ETML.
+> Voici le document crée à l'ETML. Ce document vous expliquera les thermes liés à Git et GitHub.  
+> Il vous servira de tutoriel et de document théorique sur les différents thermes et commandes Git.
+
+# Pull Request | Fork
 
 ## 1. Pull Request
-*Les pull requests sont la façon dont on vérifie les modifications du code source dans une branche. Quand on ouvre une pull request, on peut visualiser et collaborer sur les modifications de code avant le merge.*
+***Les pull requests sont la façon dont on vérifie les modifications du code source dans une branche. Quand on ouvre une pull request, on peut visualiser et collaborer sur les modifications de code avant le merge.***
+
+- Comment faire une pull request ?
 
 ### 1.1 Git bash
 > Commande sur git bash :
@@ -24,7 +30,7 @@ git request-pull [-p] <start> <url> [<end>]
 ![Capture2](https://user-images.githubusercontent.com/74264318/145034626-e2b34065-0f47-4225-bdcd-0c586898e977.PNG)
 
 ## 2. Fork
-*Un fork est une copie d'un dépôt. Cela permet de faire des modifications sur un dépôt sans que le dépôt principal soit affecté.*
+***Un fork est une copie d'un dépôt. Cela permet de faire des modifications sur un dépôt sans que le dépôt principal soit affecté.***
 
 ### 2.1 GitKraken
 - Cloner le dépôt initial.
@@ -38,4 +44,4 @@ https://support.gitkraken.com/working-with-repositories/fork/
 - En haut à droite un bouton "Fork" est présent.
 - Vous appuyez dessus.
 
-# Point B
+# Therme Git
