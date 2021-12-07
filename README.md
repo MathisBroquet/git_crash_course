@@ -13,7 +13,7 @@ Il vous servira de tutoriel et de document théorique sur les différents therme
 git request-pull [-p] <start> <url> [<end>]
 ```
 ### 1.2 GitKraken
-![Capture3](https://user-images.githubusercontent.com/74264318/145035421-fa99b2f0-1825-466f-8dd2-52c98cb9aebd.PNG)
+<img src="https://user-images.githubusercontent.com/74264318/145035421-fa99b2f0-1825-466f-8dd2-52c98cb9aebd.PNG" style="border:1px solid white">
 
 ![Capture4](https://user-images.githubusercontent.com/74264318/145035557-dcdcf66a-e61c-4364-9cf3-a56ae9ea006d.PNG)
 
@@ -30,7 +30,7 @@ git request-pull [-p] <start> <url> [<end>]
 
 
 ## 2. Fork
-***<span style="color:red">Un fork est une copie d'un dépôt. Cela permet de faire des modifications sur un dépôt sans que le dépôt principal soit affecté.</span>***
+***Un fork est une copie d'un dépôt. Cela permet de faire des modifications sur un dépôt sans que le dépôt principal soit affecté.***
 
 ### 2.1 GitKraken
 - Cloner le dépôt initial.
@@ -62,7 +62,7 @@ git push -u <remote> <branch-name>
 ```
 
 ## 2. Commit 
->>À un niveau général, Git peut être considéré comme un utilitaire de gestion de la chronologie. Les commits constituent les piliers d'une chronologie de projet Git.
+À un niveau général, Git peut être considéré comme un utilitaire de gestion de la chronologie. Les commits constituent les piliers d'une chronologie de projet Git.
 Cela interagit dans le dépôt local, ce qui ne nécessite aucune interaction avec d'autres dépôts Git.
 On peut y ajouter une description de l'ajout effectué en local, afin de l'envoyer dans le dépôt distant.
 > Lien de référence :  
@@ -118,3 +118,5 @@ Comme dans une arborescence de fichier :
 - [David Dieperink](https://github.com/dieperid)  
 - [Alexis Rojas](https://github.com/Alexis1476)
 - [Stefan Petrovic](https://github.com/XiJune)
+- [Thomas Rey](https://github.com/ThomasRey1)
+- [Damien Loup](https://github.com/dam277)
