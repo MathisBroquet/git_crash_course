@@ -48,6 +48,8 @@ https://support.gitkraken.com/working-with-repositories/fork/
 
 ## 1. Branch
 Une branch est essentiellement un ensemble unique de modification de code avec un nom unique. Chaque repo peut avoir une ou plusieurs branch. La branch principale qui s’appelle master, dans laquelle toutes les modifications sont finalement fusionnées. Il s’agit de la version officielle du projet et celle qu’on voit quand on visite le repo du projet.
+> Lien de référence :  
+https://www.atlassian.com/fr/git/tutorials/using-branches
 
 ### 1.1 Git bash
 > Créer la branch et switch immédiatement dedans :
@@ -60,7 +62,7 @@ git push -u <remote> <branch-name>
 ```
 
 ## 2. Commit 
-À un niveau général, Git peut être considéré comme un utilitaire de gestion de la chronologie. Les commits constituent les piliers d'une chronologie de projet Git.
+>>À un niveau général, Git peut être considéré comme un utilitaire de gestion de la chronologie. Les commits constituent les piliers d'une chronologie de projet Git.
 Cela interagit dans le dépôt local, ce qui ne nécessite aucune interaction avec d'autres dépôts Git.
 On peut y ajouter une description de l'ajout effectué en local, afin de l'envoyer dans le dépôt distant.
 > Lien de référence :  
@@ -113,4 +115,6 @@ Comme dans une arborescence de fichier :
 -Origin/NomDeLaBranche
 
 # Créateurs
-[![dieperid](https://github.com/dieperid)]()
+- [David Dieperink](https://github.com/dieperid)  
+- [Alexis Rojas](https://github.com/Alexis1476)
+- [Stefan Petrovic](https://github.com/XiJune)
