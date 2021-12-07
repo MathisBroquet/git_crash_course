@@ -162,7 +162,7 @@ https://www.atlassian.com/fr/git/tutorials/inspecting-a-repository/git-tag
 git tag <tagname>
 ```
 
-# Créateurs
+# Createurs
 - [David Dieperink](https://github.com/dieperid)  
 - [Alexis Rojas](https://github.com/Alexis1476)
 - [Stefan Petrovic](https://github.com/XiJune)
