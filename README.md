@@ -1,5 +1,26 @@
-# GitHub à l'ETML.
+# GitHub à l'ETML
 ><div align="justify">Voici le document crée à l'ETML. Ce document vous expliquera les thermes liés à Git et GitHub. <br> Il vous servira de tutoriel et de document théorique sur les différents thermes et commandes Git.</div>
+
+# Table de matières
+- [Pull Request | Fork](#pull-request--fork)
+    - [1. Pull request](#pull-request)
+        - [1.1 Git bash](#11-git-bash) 
+        - [1.2 GitKraken](#12-gitkraken)
+        - [1.3 GitHub](#13-github) 
+    - [2. Fork](#2-fork)
+        - [2.1 GitKraken](#21-gitkraken)
+        - [2.2 GitHub](#22-github)
+- [Termes Git](#termes-git)
+    - [1. Branch](#1-branch)
+    - [2. Commit](#2-commit)
+    - [3. Pull](#3-pull)
+    - [4. Push](#4-push)
+    - [5. Fetch](#5-fetch)
+    - [6. Origin](#6-origin)
+    - [7. Upstream](#7-upstream)
+    - [8. Stage](#8-stage)
+    - [9. Tag](#9-tag)
+- [Créateurs](#createurs)
 
 # Pull Request | Fork
 
@@ -27,9 +48,8 @@ git request-pull [-p] <start> <url> [<end>]
 
 ![Capture2](https://user-images.githubusercontent.com/74264318/145034626-e2b34065-0f47-4225-bdcd-0c586898e977.PNG)
 
-
 ## 2. Fork
-***<div align="justify">Un fork est une copie d'un dépôt. Cela permet de faire des modifications sur un dépôt sans que le dépôt principal soit affecté.</div***
+***<div align="justify">Un fork est une copie d'un dépôt. Cela permet de faire des modifications sur un dépôt sans que le dépôt principal soit affecté.</div>***
 
 ### 2.1 GitKraken
 - Cloner le dépôt initial.
@@ -43,7 +63,7 @@ https://support.gitkraken.com/working-with-repositories/fork/
 - En haut à droite un bouton "Fork" est présent.
 - Vous appuyez dessus.
 
-# Therme Git
+# Termes Git
 
 ## 1. Branch
 ***<div align="justify">Une branch est essentiellement un ensemble unique de modification de code avec un nom unique. Chaque repo peut avoir une ou plusieurs branch. La branch principale qui s’appelle master, dans laquelle toutes les modifications sont finalement fusionnées. Il s’agit de la version officielle du projet et celle qu’on voit quand on visite le repo du projet.</div>***
